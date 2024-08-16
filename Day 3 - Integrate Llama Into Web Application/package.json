@@ -1,0 +1,19 @@
+{
+  "name": "ai-weather-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --env-file=.env --watch app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@hono/node-server": "1.12.0",
+    "dotenv": "^16.4.5",
+    "hono": "4.5.3",
+    "marked": "^13.0.3"
+  },
+  "type": "module"
+}
